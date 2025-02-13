@@ -1,1 +1,1 @@
-# holbertonschool-low_level_programming
+C: lenguaje eficiente y versátil, ampliamente usado para software de sistemas y aplicaciones. Permite control preciso del hardware, es compilado (GCC, Clang) y se basa en funciones.  Es un lenguaje de propósito general, con tipado estático y relativamente sencillo de aprender, aunque requiere práctica.  Existen muchos recursos disponibles para aprender C, tanto online como en libros.
