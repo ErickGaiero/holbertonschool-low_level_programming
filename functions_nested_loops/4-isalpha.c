@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - checks the lowercases
+ * _isalpha - checks the lowercases and upercases
  * @c: exist
  * Return: 1 if lowercase or upercase, 0 Dosn't is lowercase
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
