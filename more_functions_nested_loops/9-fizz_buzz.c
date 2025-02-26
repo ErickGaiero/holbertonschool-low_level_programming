@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - its the principal function
  *
