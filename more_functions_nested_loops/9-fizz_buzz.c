@@ -7,7 +7,6 @@
  */
 
 int main(void)
-
 {
 
 	int n;
@@ -17,7 +16,7 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		} else if (n % 5 == 0)
-		
+		{		
 			printf("Buzz");
 		} else if (n % 3 == 0)
 		{
@@ -27,9 +26,10 @@ int main(void)
 			printf("%d", n);
 		}
 		if (n != 100)
+		{
 			printf(" ");
+		}
 	}
 	printf("\n");
 	return (0);
-
 }
