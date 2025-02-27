@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *_strlen - principal function
- *@s: its the poniter variable that containt the array of n
- *@n: its the counter
- */
+*_strlen - principal function
+*@s: containt the array of n
+*Return: n for the variable
+*/
 
 int _strlen(char *s)
 {
