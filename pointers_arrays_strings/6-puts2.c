@@ -1,24 +1,20 @@
 #include "main.h"
-/**
- * *cap_string - capitalize string
- *@s: string
- *Return: string s capitalized
- */
-char *cap_string(char *s)
-{
-	int n = 0, i;
-	const char *pool = ",;.!?\"(){}\n\t ";
 
-	while (s[n] != 0)
+/**
+ *puts2 - principal function
+ *@s: This pointer point to a char or string
+ */
+
+void puts2(char *s)
+{
+	int a;
+
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		if (s[n] <= 'z' && s[n] >= 'a')
+		if (a % 2 == 0)
 		{
-			if (n == 0)
-				s[n] -= 32;
-			for (i = 0; pool[i] != 0; i++)
-				s[n] = s[n - 1] == pool[i] ? s[n] - 32 : s[n];
+			_putchar(s[a]);
 		}
-		n++;
 	}
-	return (s);
+	_putchar('\n');
 }
