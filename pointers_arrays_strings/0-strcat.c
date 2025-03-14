@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcatr - its the principal function
+ * _strcat - its the principal function
  * @dest: its the string concatenated
  * @src: its the string principal
+ * Return: resukt is string concatenated
  */
 
 char *_strcat(char *dest, char *src)
