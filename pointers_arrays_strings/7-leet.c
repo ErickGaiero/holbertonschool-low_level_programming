@@ -17,11 +17,11 @@ char *leet(char *s)
 	j = 0;
 	while (letters[j] != '\0')
 	{
-			if (s[i] == letters[j])
-			{
+		if (s[i] == letters[j])
+		{
 			s[i] = numbers[j];
-	break;
-			}
+			break;
+		}
 		j++;
 		}
 	}
