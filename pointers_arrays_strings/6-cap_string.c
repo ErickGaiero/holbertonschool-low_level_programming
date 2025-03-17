@@ -4,11 +4,11 @@
 char *cap_string(char *s) {
     int i = 0;
     int c = 1;
-
     char sep[] = " \t\n,;.!?\"(){}";
+    int j;
 
     while (sep[i] != '\0') {
-        for (int j = 0; sep[j] != '\0'; j++) {
+        for (j = 0; sep[j] != '\0'; j++) {
             if (s[i] == sep[j]) {
                 c = 1;
                 break;
