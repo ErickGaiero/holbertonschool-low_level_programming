@@ -1,29 +1,39 @@
 #include "main.h"
-#include <stdio.h>
 
-char *cap_string(char *s) {
-    int i = 0;
-    int c = 1;
-    char sep[] = " \t\n,;.!?\"(){}";
-    int j;
+/**
+ * cap_string - its the principal function
+ * @str: string
+ * Return: str
+ */
 
-    while (sep[i] != '\0') {
-        for (j = 0; sep[j] != '\0'; j++) {
-            if (s[i] == sep[j]) {
-                c = 1;
-                break;
-            }
-        }
+char *cap_string(char *str)
+{
+	int i, c;
+	int trigger;
+	char nots[] = ",;.!?(){}\n\t\" ";
 
-        if (c && s[i] >= 'a' && s[i] <= 'z') {
-            s[i] -= 32;
-            c = 0;
-        } else if (s[i] >= 'A' && s[i] <= 'Z') {
-            c = 0;
-        }
+	for (i = 0, trigger = 0; str[i] != '\0'; i++)
+	{
+		if (str[0] > 96 && str[0] < 123)
+			trigger = 1;
+		for (c = 0; nots[c] != '\0'; c++)
+		{
+			if (nots[c] == str[i])
+				trigger = 1;
+		}
 
-        i++;
-    }
-
-    return s;
+		if (trigger)
+		{
+			if (str[i] > 96 && str[i] < 123)
+			{
+				str[i] -= 32;
+				trigger = 0;
+			}
+			else if (str[i] > 64 && str[i] < 91)
+				trigger = 0;
+			else if (str[i] > 47 && str[i] < 58)
+				trigger = 0;
+		}
+	}
+	return (str);
 }
