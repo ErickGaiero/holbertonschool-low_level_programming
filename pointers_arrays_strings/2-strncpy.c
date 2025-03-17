@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcpy - its the principal function
+ * _strncpy - its the principal function
  * @dest: destiny
  * @src: sourse
  * @n: numbers uf chars
