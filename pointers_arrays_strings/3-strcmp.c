@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- *
- *
+ * _strcmp - its the principal function
+ * @s1: source one
+ * @s2: source two
+ * Return: The comparation
  */
-
 int _strcmp(char *s1, char *s2)
 {
 	int i;
