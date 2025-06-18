@@ -1,10 +1,16 @@
 #include <stdio.h>
 
-int main(){
+/**
+ * main - It's the principal function
+ * Return: Return zero
+ */
 
-char str [] = "\"Programming is like building a multilingual puzzle";
+int main(void)
+{
 
-puts (str);
+	char str[] = "\"Programming is like building a multilingual puzzle";
 
-return 0;
+	puts(str);
+
+return (0);
 }
