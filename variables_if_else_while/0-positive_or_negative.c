@@ -22,10 +22,10 @@ int main(void)
 	{
 		printf("is zero");
 	}
-	{
 	else
+	}
 		printf("is negative");
-}
+	}
 
 	return (0);
 }
