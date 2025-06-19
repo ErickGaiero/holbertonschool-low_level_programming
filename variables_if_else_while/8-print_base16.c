@@ -3,6 +3,7 @@
 /**
  *main - It's the principal function
  *alphabet: Its the variable of alphabet
+ *numero: Its the number before alpabet
  *Return: Return zero
  */
 
@@ -14,7 +15,7 @@ int main(void)
 
 	for (numero = '0'; numero <= '9'; numero++)
 	{
-		putchar(alphabet);
+		putchar(numero);
 	}
 	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
 	{
