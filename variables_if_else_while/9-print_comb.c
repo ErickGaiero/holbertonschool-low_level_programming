@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- *
- *
+ *main - Its the principal function
+ *num: number
+ *Return: Return zero
  */
 
 int main (void)
@@ -19,6 +20,6 @@ int main (void)
 		}
 	}
 	putchar('\n');
-	
-	return(0);
+
+	return (0);
 }
