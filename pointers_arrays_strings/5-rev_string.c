@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- *
- *
+ *rev_string - Reverse the strings
+ *@s: String
  */
 
 void rev_string(char *s)
