@@ -5,6 +5,7 @@
  *_strstr - Find and print the coincidence
  *@haystack: Parameter
  *@needle: Another parameter
+ *Return: Return the word or nothing
  */
 
 char *_strstr(char *haystack, char *needle)
