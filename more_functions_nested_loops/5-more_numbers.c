@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *more_numbers: Print 1 to 14
+ *more_numbers - Print numbers 1 to 14, 10 times followed by a line|
  */
 
 void more_numbers(void)
