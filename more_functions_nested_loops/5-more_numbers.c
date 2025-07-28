@@ -3,8 +3,7 @@
 #include <stdlib.h>
 
 /**
- *
- *
+ *more_numbers: Print 1 to 14
  */
 
 void more_numbers(void)
