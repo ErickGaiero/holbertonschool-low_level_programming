@@ -2,34 +2,35 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ *main - Fizz Buzz
+ *Return: Zero in the program final
  */
 
-int main (void)
+int main(void)
 {
 
 	int i;
 
-	for (i = 1; i <= 100; i++)
+
+	printf("1");
+	for (i = 2; i <= 100; i++)
 	{
-	
+
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf(" FizzBuzz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf(" Buzz");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			printf(" Fizz");
 		}
 		else
 		{
-			printf("%i ", i);
+			printf(" %i", i);
 		}
 
 	}
